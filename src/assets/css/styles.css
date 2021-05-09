@@ -1,0 +1,53 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Josefin', sans-serif;
+}
+p
+{
+    font-family: 'Raleway', sans-serif;
+}
+ul, li, ol, i, a
+{
+    font-family: 'Josefin', sans-serif;
+}
+button
+{
+    font-family: 'Poppins', sans-serif;
+}
+/* ***************************************** */
+@media only screen and (max-width: 1600px)
+{
+    .side-navigation
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 767px)
+{
+    .side-navigation
+    {
+        display: block;
+    }
+    .main-navigation-section .menu
+    {
+        display: none;
+    }
+    .top-navigation-section
+    {
+        display: none;
+    }
+    .brand-logo
+    {
+        display: none;
+    }
+}
